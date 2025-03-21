@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Welcome to Mount Kenya</title>
+		<link rel="icon" type="image" href="images/th.jpeg">
+		<!-- style.css linking here -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- font family linking here -->
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<!-- font-awesome.min.css linking here -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<!-- header section strt -->
+		<section class="sub-header">
+			<!-- nav strt -->
+			<nav>
+				<a href="index.html"><img src="images/flat-mtkenya.jpg" alt=""></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li>
+							<a href="index.html">HOME</a>
+						</li>
+						<li>
+							<a href="About.html">ABOUT</a>
+						</li>
+						<li>
+							<a href="Services.html">Services</a>
+						</li>
+						<li>
+							<a href="Gallery.html">Gallery</a>
+						</li>
+						<li>
+							<a href="Contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<!-- nav end -->
+			<h1>Mount-Kenya-Climbing</h1>
+		</section>
+		<!-- header section end -->
+
+		<!-- blog page content -->
+		<!-- blog page content -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/road-to-mtkenya.jpg" alt="Hiking Mount Kenya">
+            <h2>Exploring Mount Kenya: Adventure, Culture, and Nature</h2>
+            <p>Mount Kenya, Africa's second-highest peak, offers a breathtaking mix of adventure, natural beauty, and cultural experiences...</p>
+
+            <!-- Video Section -->
+            <h3>Watch: Climbing Mt Kenya for the First Time</h3>
+            <video width="100%" controls>
+                <source src="Climbing Mt Kenya for the first time [nzmFHYphtoI].mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <!-- Audio Section -->
+            <h3>Listen to the Audio</h3>
+            <audio controls>
+                <source src="Climbing Mt Kenya for the first time.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+
+            <div class="comment-box">
+                <h3>Share Your Experience</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="blog-right">
+            <h3>Mount Kenya Adventure Categories</h3>
+            <div>
+                <span>Hiking & Trekking</span>
+                <span>35</span>
+            </div>
+            <div>
+                <span>Wildlife & Nature</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Cultural Experiences</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Eco-Tourism</span>
+                <span>18</span>
+            </div>
+            <div>
+                <span>Photography & Scenic Views</span>
+                <span>40</span>
+            </div>
+            <div>
+                <span>Camping & Lodging</span>
+                <span>31</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+	
+		
+		
+		<!-- footer strt -->
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>Our experienced guides will lead you on unforgettable adventures, ensuring your safety and enriching your understanding of the mountain's ecosystem.</p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-linkedin"></i>
+			</div>
+			<p>Made With <i class="fa fa-heart"></i> by 0xffar00q with help of <i class="fa fa-heart"></i> Easy Tutorials  </p>
+		</section>
+		<!-- footer end -->
+		<!-- Javascript for toggle menu -->
+		<script>
+			var navLinks = document.getElementById("navLinks");
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+		</script>
+	</body>
+</html>

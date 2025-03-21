@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Mount-Kenya-Climbing</title>
+		<link rel="icon" type="image" href="images/th.jpeg">
+		<!-- style.css linking here -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- font family linking here -->
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<!-- font-awesome.min.css linking here -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<!-- header section strt -->
+		<section class="sub-header">
+			<!-- nav strt -->
+			<nav>
+				<a href="index.html"><img src="images/logo.png" alt=""></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li>
+							<a href="index.html">HOME</a>
+						</li>
+						<li>
+							<a href="About.html">ABOUT</a>
+						</li>
+						<li>
+							<a href="Services.html">Services</a>
+						</li>
+						<li>
+							<a href="Gallery.html">Gallery</a>
+						</li>
+						<li>
+							<a href="Contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<!-- nav end -->
+			<h1>Mount Kenya</h1>
+		</section>
+		<!-- header section end -->
+		 
+		<section class="header" style="background: url('images/mt-ke.webp') no-repeat center center/cover; height: 100vh; display: flex; justify-content: center; align-items: center; color: white; text-align: center;">
+			<h1>Mount Kenya</h1>
+		</section>s
+
+		<!-- Course content strt -->
+		<section class="course">
+			<h1>Explore Mt. Kenya: Tailored Experiences</h1>
+			<p>Discover adventures and immerse yourself in the beauty of Mt. Kenya with our curated tourism options.</p>
+			<div class="row">
+				<div class="course-col">
+					<h3>Guided Hikes & Treks</h3>
+					<p>Embark on unforgettable journeys to various altitudes, from gentle nature walks to challenging summit climbs. Experienced guides ensure your safety and enrich your understanding of the mountain's unique ecosystem.</p>
+				</div>
+				<div class="course-col">
+					<h3>Wildlife Safaris & Nature Tours</h3>
+					<p>Explore the surrounding national park and conservancies, encountering diverse wildlife like elephants, buffalo, monkeys, and a plethora of bird species. Expert naturalists provide insights into the region's flora and fauna.</p>
+				</div>
+				<div class="course-col">
+					<h3>Cultural Immersion & Local Encounters</h3>
+					<p>Connect with the vibrant communities living around Mt. Kenya. Experience traditional dances, sample local cuisine, and learn about the cultural heritage of the people who call this majestic mountain home.</p>
+				</div>
+			</div>
+		</section>
+		
+		<section class="facilities">
+			<h1>Amenities and Services for Your Mt. Kenya Adventure</h1>
+			<p>We provide a range of facilities to ensure a comfortable, safe, and enriching experience during your visit.</p>
+			<div class="row">
+				<div class="facilities-col">
+					<img src="images/flat-mtkenya.jpg" alt="Comfortable Lodging">
+					<h3>Comfortable and Eco-Friendly Lodging</h3>
+					<p>Relax in our selection of lodges and camps, blending seamlessly with nature. Choose from rustic charm to luxurious comfort, all with stunning views.</p>
+				</div>
+				<div class="facilities-col">
+					<img src="images/road-to-mtkenya.jpg" alt="Expertly Guided Tours">
+					<h3>Expertly Guided Tours and Treks</h3>
+					<p>Our experienced guides will lead you on unforgettable adventures, ensuring your safety and enriching your understanding of the mountain's ecosystem.</p>
+				</div>
+				<div class="facilities-col">
+					<img src="images/mount-kenya.jpg" alt="Authentic Local Cuisine">
+					<h3>Authentic Local Cuisine and Dining</h3>
+					<p>Savor the flavors of the region with delicious and authentic Kenyan cuisine. Experience fresh, locally sourced ingredients prepared with traditional techniques.</p>
+				</div>
+			</div>
+		</section>
+		
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>Discover the magic of Mt. Kenya with us. We are committed to offering unforgettable experiences that connect you with nature, adventure, and culture.</p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-linkedin"></i>
+			</div>
+			<p>Made with <i class="fa fa-heart"></i> by Our Team, inspired by the beauty of Mt. Kenya.</p>
+		</section>
+		
+		<!-- footer end -->
+		<!-- Javascript for toggle menu -->
+		<script>
+			var navLinks = document.getElementById("navLinks");
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+		</script>
+	</body>
+</html>
